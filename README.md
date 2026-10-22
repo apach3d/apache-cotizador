@@ -4,6 +4,7 @@ Archivos:
 - `index.html` — página de inicio de sesión (Google).
 - `cotizador.html` — la calculadora; se abre sola después de entrar.
 - `firebase-config.js` — aquí pegas los datos de tu proyecto Firebase.
+- `favicon.svg` — el ícono de la pestaña del navegador (el logo de Apache 3D).
 
 ## 1. Crear el proyecto en Firebase (gratis)
 1. Entra a https://console.firebase.google.com con tu cuenta de Google y crea un proyecto (puedes desactivar Google Analytics).
@@ -26,7 +27,7 @@ service cloud.firestore {
 6. Pega esos valores en `firebase-config.js`.
 
 ## 2. Subir a GitHub Pages
-1. Crea un repositorio y sube los tres archivos a la raíz.
+1. Crea un repositorio y sube los cuatro archivos (más README.md si quieres) a la raíz.
 2. **Settings > Pages > Deploy from a branch > main / (root)**.
 3. Tu página queda en `https://TU_USUARIO.github.io/NOMBRE_REPO/`.
 4. Vuelve a Firebase: **Authentication > Configuración > Dominios autorizados > Agregar dominio** y escribe `TU_USUARIO.github.io`.
